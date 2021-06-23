@@ -21,8 +21,5 @@ let package = Package(
         .target(
             name: "ObjCToy",
             dependencies: []),
-        .testTarget(
-            name: "ObjCToyTests",
-            dependencies: ["ObjCToy"]),
     ]
 )
