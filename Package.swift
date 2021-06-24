@@ -8,7 +8,12 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "ObjCToy",
+            name: "ObjCToyDynamic",
+            type: .dynamic,
+            targets: ["ObjCToy"]),
+        .library(
+            name: "ObjCToyStatic",
+            type: .static,
             targets: ["ObjCToy"]),
     ],
     dependencies: [

@@ -1,5 +1,5 @@
 module ObjCToy {
     header "../../Headers/ObjCToy-Bridging-Header.h"
-    link "ObjCToy"
+    link framework "Foundation"
     export *
 }
